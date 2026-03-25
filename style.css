@@ -1,0 +1,118 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+/* Navigation */
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffd700; /* gold on hover */
+}
+
+/* Main Container */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Article */
+article h2.title {
+    margin-bottom: 15px;
+    color: #4a90e2;
+}
+
+article p.content {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+/* Form Section */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #357ABD;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    color: #777;
+}
+
+/* Highlight class */
+.highlight {
+    background-color: #ffd700;
+}
