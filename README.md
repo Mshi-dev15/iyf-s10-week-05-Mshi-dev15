@@ -53,3 +53,8 @@ The goal was to practice selecting elements, handling user events, and dynamical
 - ❌ Handling dynamic elements without adding multiple event listeners  
 - ❌ Fixing errors caused by undefined elements when rendering  
 - ❌ Understanding how functions like `renderTodos()` control the entire UI  
+
+---
+
+## Live Demo
+[View Live Demo](https://mshi-dev15.github.io/iyf-s10-week-05-Mshi-dev15/)
