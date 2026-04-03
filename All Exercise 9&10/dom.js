@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // all your blocks go here
 });
 
-//----task 1-----
+//----task 9.1-----
 const header = document.getElementById("main-header");
 console.log("getElementById:",header);
 
@@ -31,7 +31,7 @@ console.log("getElementById:", email);
 const lastparagraph = document.querySelector("p");
 console.log("querySelector:", lastparagraph);
 
-//-----task 2------
+//-----task 9.2------
 const nav =document.querySelector("nav");
 console.log(nav.parentElement);
 console.log(nav.children);
@@ -63,7 +63,7 @@ const body = footer.parentElement;
 console.log(nav, parentli,nextsection,allli, body, );
 }
 {
-// ---task 3-----
+// ---task 9.3-----
 //exercise1: text content
 const h1 = document.querySelector("h1");
 console.log(h1.textcontent);
@@ -112,7 +112,7 @@ Object.assign(container.style,{
 
 }
 {
-//-----task 4----
+//-----task 9.4----
 const NewParagraph = document.createElement("p");
 NewParagraph.textContent ="This is a new paragraph";
 NewParagraph.className = "content highlight";
@@ -157,7 +157,7 @@ function addNavItem(text, href){
 }
 
 {
-    //---task 5----
+    //---task 10.1----
     const button = document.createElement("button");
     button.textcontent = "click me";
     document.body.appendChild(button);
@@ -179,7 +179,7 @@ button.addEventListener("click", ()=>{
 
 }
 {
-//---task6------
+//---task 10.2------
 document.addEventListener("click",function(event){
 console.log("Target",event.target);
 console.log("Current Target",event.currentTarget);
@@ -219,7 +219,7 @@ if (event.ctrlKey && event.key ==="enter"){
 
 }
 {
-//----task 7----
+//----task 10.4----
 const form = document.getElementById("contact-form");
 const nameInput = document.getElementById("name");
 const emailInput = document.getElementById("email");

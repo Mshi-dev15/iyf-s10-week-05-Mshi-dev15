@@ -23,23 +23,31 @@
     const addBtn= document.getElementById("addbtn");
 
     addBtn.addEventListener("click", ()=>{
-        const tasktext = taskInput.value.trim();
-        if (!tasktext) return;
+        const text = taskInput.value.trim();
+        if (text ==="") return;
         const li = document.createElement("li");
-        li.innerHTML = `${tasktext} <button class= "deletebtn">delete</button>`;
+        li.innerHTML = `<span class="task-text">${text}</span>
+         <button class= "delete-btn">delete</button>`;
         tasklist.appendChild(li);
         taskInput.value = "";
 
         
     });
     tasklist.addEventListener("click", (event)=>{
-        const target = event.target;
+        //const target = event.target;
 
-        if (target.tagName ==="LI"&& ! target.classlist.contains("deleteBtn")){
-            target.classlist.toggle("completed");
+        //if (target.tagName ==="LI"&& ! target.classlist.contains("deleteBtn")){
+            //target.classlist.toggle("completed");
+        //}
+        //if (target.classlist.contains("deleteBtn")){
+           // target,parentElement.remove();
+        //}
+        if(event.target.classlist.contains("delete-btn")){
+            event.target.parentElement.remove();
+            return;
         }
-        if (target.classlist.contains("deleteBtn")){
-            target,parentElement.remove();
+        if(event.target.classlist.contains("task-text")){
+            event.target.classlist.toggle("completed");
         }
     });
 
