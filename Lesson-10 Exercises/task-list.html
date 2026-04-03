@@ -5,18 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .complete { text-decoration: line-throug;color: gray;
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
 
-        }
+/* Center everything */
+.container {
+    width: 350px;
+    margin: 50px auto;
+}
+
+/* Title */
+h2 {
+    text-align: center;
+}
+
+/* Input + button row */
+input {
+    width: 65%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+#addbtn {
+    width: 30%;
+    padding: 10px;
+    margin-left: 5px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* List */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+/* Each task */
+li {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+/* Completed */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Delete button */
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+        
     </style>
 </head>
 <body>
-    
+    <div class="container">
 <h2>Task list</h2>
 <input type="text" id="taskInput" placeholder="Add a new task">
 <button id="addbtn">Add task</button>
 <ul id="tasklist"></ul>
-
+</div>
 <script>
     const tasklist = document.getElementById("tasklist")
     const taskInput =document.getElementById("taskInput");
@@ -42,12 +109,12 @@
         //if (target.classlist.contains("deleteBtn")){
            // target,parentElement.remove();
         //}
-        if(event.target.classlist.contains("delete-btn")){
+        if(event.target.classList.contains("delete-btn")){
             event.target.parentElement.remove();
             return;
         }
-        if(event.target.classlist.contains("task-text")){
-            event.target.classlist.toggle("completed");
+        if(event.target.classList.contains("task-text")){
+            event.target.classList.toggle("completed");
         }
     });
 
