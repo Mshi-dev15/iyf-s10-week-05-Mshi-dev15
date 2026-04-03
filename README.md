@@ -15,10 +15,10 @@ The goal was to practice selecting elements, handling user events, and dynamical
 ---
 
 ## 🚀🚀Live Demo
-- [To-Do-List](https://Mshi-dev15.github.io/iys-s10-week-05-Mshi-dev15/To%20Do%20List.html)
-- [Event Listener-click counter](https://Mshi-dev15.github.io/iys-s10-week-05-Mshi-dev15/Event%20Listener%20click%20counter.html)
-- [task-list](https://Mshi-dev15.github.io/iys-s10-week-05-Mshi-dev15/task%20list.html)
-- [DOM Practice](https://mshi-dev15.github.io/iyf-s10-week-05-Mshi-dev15/)
+- [To-Do-List](https://Mshi-dev15.github.io/iyf-s10-week-05-Mshi-dev15/To%20Do%20List.html)
+- [Event Listener-click counter](https://Mshi-dev15.github.io/iyf-s10-week-05-Mshi-dev15/Event%20Listener%20click%20counter.html)
+- [task-list](https://Mshi-dev15.github.io/iyf-s10-week-05-Mshi-dev15/task%20list.html)
+- [DOM Practice](https://mshi-dev15.github.io/iyf-s10-week-05-Mshi-dev15/index.html)
 
 ---
 
