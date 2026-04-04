@@ -70,8 +70,8 @@ The goal was to practice selecting elements, handling user events, and dynamical
 ---
 
 ## Screenshots
-- [DOM Practice](https://github.com/Mshi-dev15/iyf-s10-week-05-Mshi-dev15/blob/main/images/Screenshot_4-4-2026_16722_127.0.0.1(1).jpeg)
+- [DOM Practice](https://raw.githubusercontent.com/Mshi-dev15/iyf-s10-week-05-Mshi-dev15/main/images/DOM-practice.jpeg)
 
-- [To Do List](https://github.com/Mshi-dev15/iyf-s10-week-05-Mshi-dev15/blob/main/images/Screenshot_4-4-2026_16146_127.0.0.1(1).jpeg)
+- [To Do List](https://raw.githubusercontent.com/Mshi-dev15/iyf-s10-week-05-Mshi-dev15/main/images/to-do-list.jpeg)
 
-- [Click Counter](https://github.com/Mshi-dev15/iyf-s10-week-05-Mshi-dev15/blob/main/images/Screenshot_4-4-2026_16826_127.0.0.1(1).jpeg)
+- [Click Counter](https://raw.githubusercontent.com/Mshi-dev15/iyf-s10-week-05-Mshi-dev15/main/images/click-counter.jpeg)
