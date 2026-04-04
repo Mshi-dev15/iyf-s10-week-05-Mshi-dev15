@@ -1,5 +1,10 @@
 # Week 5: Interactive To-Do List
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat&logo=github&logoColor=white)
+
 ## Author
 - **Name:** Faith Kirimi  
 - **GitHub:** [@Mshi-dev15](https://github.com/Mshi-dev15)
@@ -64,5 +69,7 @@ The goal was to practice selecting elements, handling user events, and dynamical
 
 ---
 
-## Live Demo
-[View Live Demo](https://mshi-dev15.github.io/iyf-s10-week-05-Mshi-dev15/)
+## Screenshots
+- [DOM Practice]()
+
+- []
