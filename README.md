@@ -19,11 +19,15 @@ The goal was to practice selecting elements, handling user events, and dynamical
 
 ---
 
-## 🚀🚀Live Demo
-- [To-Do-List](https://Mshi-dev15.github.io/iyf-s10-week-05-Mshi-dev15/To-Do-List/to-do-list.html)
-- [Event Listener-click counter](https://Mshi-dev15.github.io/iyf-s10-week-05-Mshi-dev15/Lesson-10-Exercises/Event-Listener-click-counter.html)
-- [task-list](https://Mshi-dev15.github.io/iyf-s10-week-05-Mshi-dev15/Lesson-10-Exercises/task-list.html)
-- [DOM Practice](https://mshi-dev15.github.io/iyf-s10-week-05-Mshi-dev15/)
+## 🌐 Live Demos
+
+[![To-Do List](https://img.shields.io/badge/✅%20To--Do%20List-274D6A?style=for-the-badge&logoColor=white)](https://Mshi-dev15.github.io/iyf-s10-week-05-Mshi-dev15/To-Do-List/to-do-list.html)
+<br><br>
+[![Click Counter](https://img.shields.io/badge/🖱️%20Click%20Counter-E34F26?style=for-the-badge&logoColor=white)](https://Mshi-dev15.github.io/iyf-s10-week-05-Mshi-dev15/Lesson-10-Exercises/Event-Listener-click-counter.html)
+<br><br>
+[![Task List](https://img.shields.io/badge/📋%20Task%20List-F7DF1E?style=for-the-badge&logoColor=black)](https://Mshi-dev15.github.io/iyf-s10-week-05-Mshi-dev15/Lesson-10-Exercises/task-list.html)
+<br><br>
+[![DOM Practice](https://img.shields.io/badge/🧪%20DOM%20Practice-4CAF50?style=for-the-badge&logoColor=white)](https://mshi-dev15.github.io/iyf-s10-week-05-Mshi-dev15/)
 
 ---
 
@@ -70,8 +74,11 @@ The goal was to practice selecting elements, handling user events, and dynamical
 ---
 
 ## Screenshots
+### 🧪 DOM Practice
 ![DOM Practice](https://github.com/Mshi-dev15/iyf-s10-week-05-Mshi-dev15/blob/main/images/DOM-practice.jpeg)
 
+### ✅ To-Do List
 ![To Do List](https://github.com/Mshi-dev15/iyf-s10-week-05-Mshi-dev15/blob/main/images/to-do-list.jpeg)
 
+### 🖱️ Click Counter
 ![Click Counter](https://github.com/Mshi-dev15/iyf-s10-week-05-Mshi-dev15/blob/main/images/click-counter.jpeg)
