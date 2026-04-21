@@ -1,7 +1,7 @@
 // js/ui.js
 
 import { store, getFilteredTodos } from './state.js';
-import { toggleTodo, deleteTodo, clearCompleted, setFilter, getRemainingCount } from './actions.js';
+import { addTodo,toggleTodo, deleteTodo, clearCompleted, setFilter, getRemainingCount } from './actions.js';
 
 // Cache DOM elements for performance
 const elements = {
