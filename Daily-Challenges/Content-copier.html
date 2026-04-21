@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="source">
+        <p>This is the source content.</p>
+       </div>
+       <div id="target">
+        <p>This target is empty</p>
+       </div>
+       <button id="copyBtn">Copy Content</button>
+    <script>
+        const source = document.getElementById("source");
+        const destination = document.getElementById("target");
+        const copyBtn = document.getElementById("copyBtn");
+
+        copyBtn.addEventListener("click", function() {
+    const content = source.innerHTML;
+    
+    if (content.trim() && content !== "Type or paste content here...") {
+        target.innerHTML = content;
+        showFeedback("✅ Content copied!");
+    } else {
+        showFeedback("⚠️ Source is empty!", true);
+    }
+});
+
+        source.setAttribute("draggable", "true");
+
+source.addEventListener("dragstart", function(e) {
+    e.dataTransfer.setData("text/html", source.innerHTML);
+});
+
+target.addEventListener("dragover", function(e) {
+    e.preventDefault();
+    target.classList.add("drag-over");
+});
+
+target.addEventListener("dragleave", function() {
+    target.classList.remove("drag-over");
+});
+
+target.addEventListener("drop", function(e) {
+    e.preventDefault();
+    target.classList.remove("drag-over");
+    
+    const content = e.dataTransfer.getData("text/html");
+    if (content) {
+        target.innerHTML = content;
+        showFeedback("✅ Dropped content!");
+    }
+});
+    </script>
+</body>
+</html>

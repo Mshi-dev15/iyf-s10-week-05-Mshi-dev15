@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="addBtn">Add Paragraph</button>
+    <div id="container"></div>
+    <script>
+const button = document.getElementById('addBtn');
+const container = document.getElementById('container');
+let count = 0;
+
+button.addEventListener('click', () => {
+    count++;
+    const wrapper = document.createElement('div');
+    const p = document.createElement('p');
+    p.textContent = `This is paragraph ${count}`;
+    const delBtn = document.createElement('button');
+    delBtn.textContent = 'Delete';  
+
+    delBtn.addEventListener('click', () => {
+        wrapper.remove();
+    });
+    wrapper.appendChild(p);
+    wrapper.appendChild(delBtn);
+    container.appendChild(wrapper);
+});
+
+
+    </script>
+</body>
+</html>

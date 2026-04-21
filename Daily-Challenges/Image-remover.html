@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="toggleBtn">Toggle Image</button>
+       <button id="removeBtn">Remove All Images</button>
+    <img src="https://picsum.photos/200/200?random=1" alt="Random 1">
+      <img src="https://picsum.photos/200/200?random=2" alt="Random 2">
+        <img src="https://picsum.photos/200/200?random=3" alt="Random 3">
+    <script>
+        const removeBtn = document.getElementById("removeBtn");
+        const toggleBtn = document.getElementById('toggleBtn');
+        const myImage = document.querySelectorAll('img') ;
+        let hidden = false;
+
+removeBtn.addEventListener("click", function() {
+    if (imagesRemoved) {
+        // Restore images (bonus feature)
+        location.reload();
+        return;
+    }
+
+        images.forEach((img, index) => {
+        setTimeout(() => {
+            img.style.transition = "all 0.3s ease";
+            img.style.opacity = "0";
+            img.style.transform = "scale(0.8)";
+            setTimeout(() => img.remove(), 300);
+        }, index * 100);
+    });
+    
+    removeBtn.textContent = "Restore Images";
+    imagesRemoved = true;
+    });
+
+        toggleBtn.addEventListener("click", ()=>{
+            myImage.forEach(img =>{
+                img.style.display= (hidden);
+        });
+    
+    const isHidden = images[0]?.classList.contains("hidden");
+    toggleBtn.textContent = isHidden ? "Show Images" : "Hide Images";
+});
+    </script>
+</body> 
+</html> 
